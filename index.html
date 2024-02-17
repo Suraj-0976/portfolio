@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- La compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- La compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom javascript -->
+    <script src="index.js"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="30">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand px-3" id="logo" href="javascript:void(0)"><span>Suraj</span>Kumar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" id="menus" href="#home"><span>Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="menus" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="menus" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="menus" href="#custom-contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="menus" href="#address">Address</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search" id="search">
+                    <button class="btn btn-primary" id="srch-btn" type="button" onclick="srch()">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="hero" id="home">
+        <div class="container d-flex justify-content-space-between align-items-center py-5 custom ">
+            <div class="user-img ">
+                <img class="img-fluid" src="images/hero.png" alt="" height="300px" width="100%">
+            </div>
+            <div class="hr-1"></div>
+
+            <div class="user-content mx-auto">
+                <h5 class="text-secondary my-4">WELCOME TO MY WEBSITE</h5>
+                <h2 class="my-3" id="heading">WEB DEVELOPER</h2>
+                <h2 class="text-white my-3">Hello, I'm Suraj Currenty <br> Based in Delhi, India.</h2>
+                <p class="text-secondary">Proficient in HTML, CSS, JAVASCRIPT, and PHP. <br>
+                    Seeking to join a dynamic team where, I can utilize ny skills <br>
+                    to help drive the success of the organization.
+                </p>
+                <div class="my-4 d-flex flex-wrap-nowwrap">
+                    <a href="https://www.linkedin.com/in/suraj-vishwakarma-358870249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        class="mx-2" title="Linked In"><i class="fa fa-linkedin-square" style="font-size:40px"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100037175504892&mibextid=ZbWKwL" class="mx-2"
+                        title="Facebook"><i class='fa fa-facebook-f' style='font-size:40px'></i></a>
+                    <a href="https://www.instagram.com/codingspace0976?igsh=MWNrd2I2OWlvaXVmYQ==" class="mx-2"
+                        title="Instagram"><i class="fa fa-instagram" style="font-size:40px"></i></a>
+                    <a href="mailto: kumar498312@gmail.com" class="mx-2" title="Gmail"><i class="fa fa-envelope"
+                            style="font-size:40px"></i></a>
+                    <a href="https://youtube.com/@CodingSpace0976?si=tyKCF96gkA6FO6om" class="mx-2" title="Youtube"><i
+                            class="fa fa-youtube-play" style="font-size:40px"></i></a>
+                    <a href="whatsapp: +919625503591" class="mx-2" title="Whats App"><i class="fa fa-whatsapp"
+                            style="font-size:40px"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/16qenhdWqf2bQtxph_tFT71z5iCwxpOGL/view?usp=drive_link" id="custom-btn-2">Download Resume</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <!-- about section -->
+
+    <div class="container-fluid bg-dark  custom" id="about">
+        <h1 class="text-center py-3 bg-dark" id="custom">Who Am I .?</h1>
+        <div class="container-fluid">
+            <div class="about-img">
+                <img src="images/user.png" class="img-fluid rounded-circle mx-auto d-block" alt="">
+
+            </div>
+
+            <div class="about-content p-3">
+                <p class="text-white text-center">
+                    Eager to embark on my journey as a web developer, I am passionate about leveraging my skills and
+                    knowledge to create innovative and user-friendly web solutions.
+                    I am passionate about staying connected with the web development community, attending
+                    meetups, participating in online forums, and seeking out opportunities to collaborate with fellow
+                    developers. I am driven by my curiosity and love for technology.
+                </p>
+            </div>
+        </div>
+        <div class="container-fluid d-flex pb-5" id="card">
+            <div class="container mb-2">
+                <!-- <h2 class="text-white">Web Design</h2> -->
+                <div class="card">
+                    <div class="card-body bg-dark text-center" id="custom">Web Design</div>
+                    <img src="images/web-design.jpg" class="img-fluid" alt="">
+                    <p class="bg-dark p-2 text-center" id="custom">
+                        Experienced web designer with a passion for creating visually stunning and user-friendly
+                        websites. Proficient in HTML, CSS, JavaScript, and responsive design techniques. Skilled in
+                        typography, color theory, and graphic design principles to craft engaging online experiences.
+                    </p>
+                </div>
+            </div>
+            <div class="container mb-2">
+                <!-- <h2 class="text-white">Web Development</h2> -->
+                <div class="card">
+                    <div class="card-body bg-dark text-center" id="custom">Web Development</div>
+                    <img src="images/developer.jpg" class="img-fluid" alt="">
+                    <p class="bg-dark p-2 text-center" id="custom">
+                        Skilled in creating dynamic and interactive websites that prioritize functionality and
+                        performance. Detail-oriented problem solver with a passion for clean, efficient code and
+                        user-centric design. Collaborative team player with excellent communication skills.
+                    </p>
+                </div>
+            </div>
+            <div class="container mb-2">
+                <!-- <h2 class="text-white">Backend </h2> -->
+                <div class="card" id="custom">
+                    <div class="card-body bg-dark text-center">Backend Development</div>
+                    <img src="images/backend.jpg" class="img-fluid" alt="">
+                    <p class="bg-dark p-2 text-center" id="custom">
+                        Experienced backend developer proficient in PHP and MySQL, with a focus on building dynamic and
+                        scalable web applications. Skilled in server-side scripting, database management, and API
+                        development and maintenance etc many and more.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="hr"></div>
+
+    <section class="container-fluid bg-dark p-5" id="skills">
+        <h1 class="text-white text-center">Skills</h1>
+        <div class="hr-2"></div>
+        <h3 class="text-white">HTML</h3>
+        <div class="progress my-4">
+            <div class="progress-bar" id="bars" style="width:100%">100%</div>
+        </div>
+        <h3 class="text-white">CSS</h3>
+
+        <div class="progress my-4">
+            <div class="progress-bar" id="bars" style="width:100%">100%</div>
+        </div>
+        <h3 class="text-white">JAVASCRIPT</h3>
+
+        <div class="progress my-4">
+            <div class="progress-bar" id="bars" style="width:80%">80%</div>
+        </div>
+        <h3 class="text-white">PHP</h3>
+
+        <div class="progress my-4">
+            <div class="progress-bar" id="bars" style="width:90%">90%</div>
+        </div>
+        <h3 class="text-white">MySQL</h3>
+
+        <div class="progress my-4">
+            <div class="progress-bar" id="bars" style="width:80%">80%</div>
+        </div>
+        <h3 class="text-white">PYTHON</h3>
+
+        <div class="progress my-4">
+            <div class="progress-bar" id="bars" style="width:75%">75%</div>
+        </div>
+        <h3 class="text-white">JAVA</h3>
+
+        <div class="progress my-4">
+            <div class="progress-bar" id="bars" style="width:40%">40%</div>
+        </div>
+        <h3 class="text-white">C</h3>
+
+        <div class="progress my-4">
+            <div class="progress-bar" id="bars" style="width:75%">75%</div>
+        </div>
+        <h3 class="text-white">C++</h3>
+
+        <div class="progress my-4">
+            <div class="progress-bar" id="bars" style="width:90%">90%</div>
+        </div>
+
+    </section>
+    <div class="container-fluid" id="address">
+        <iframe class="bg-dark"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1110.0735132038903!2d77.04569119210929!3d28.637060679702174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1708070917384!5m2!1sen!2sin"
+            width="650" height="450" style="border:2;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="footer bg-dark text-white pt-5" id="custom-border">
+        <div class="container-fluid d-flex justify-content-center align-content-center  flex-wrap-nowwrap">
+            <div class="container text-center">
+                <h1 id="custom">Suraj Kumar</h1>
+                <p>Web Developer</p>
+                <a href="tel: +91 9625503591"><i class="fa fa-phone"> +91 9625503591</i></a>
+                <p>Uttam Nagar, New Delhi-110059</p>
+            </div>
+            <div class="container test-1 text-center">
+                <li class="nav-item">
+                    <a class="nav-link" id="menus" href="#home"><span>Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menus" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menus" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menus" href="#custom-contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menus" href="#address">Address</a>
+                </li>
+            </div>
+        </div>
+        <div class="my-4 justify-content-center d-flex flex-wrap-wrap">
+            <a href="https://www.linkedin.com/in/suraj-vishwakarma-358870249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                class="mx-2" title="Linked In"><i class="fa fa-linkedin-square" style="font-size:40px"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100037175504892&mibextid=ZbWKwL" class="mx-2"
+                title="Facebook"><i class='fa fa-facebook-f' style='font-size:40px'></i></a>
+            <a href="https://www.instagram.com/codingspace0976?igsh=MWNrd2I2OWlvaXVmYQ==" class="mx-2"
+                title="Instagram"><i class="fa fa-instagram" style="font-size:40px"></i></a>
+            <a href="mailto: kumar498312@gmail.com" class="mx-2" title="Gmail"><i class="fa fa-envelope"
+                    style="font-size:40px"></i></a>
+            <a href="https://youtube.com/@CodingSpace0976?si=tyKCF96gkA6FO6om" class="mx-2" title="Youtube"><i
+                    class="fa fa-youtube-play" style="font-size:40px"></i></a>
+            <a href="whatsapp: +919625503591" class="mx-2" title="Whats App"><i class="fa fa-whatsapp"
+                    style="font-size:40px"></i></a>
+
+        </div>
+        <!-- <button type="submit" class="btn my-3 form-control" id="custom-btn">Submit</button> -->
+
+    </div>
+
+</body>
+
+</html>
